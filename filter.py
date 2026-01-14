@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-data = pd.read_json("final.json")
+data = pd.read_json("supposed_final.json")
 df1 = data[data["remarquable"] == "OUI"]
 colonnes = [
     "idbase",
